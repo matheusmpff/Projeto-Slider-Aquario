@@ -1,5 +1,6 @@
 # Projeto-Slider-Aquario
 🐠 Projeto Slider do Aquário / Aquarium Slider Project
+
 🇧🇷 Descrição em Português
 
 Este projeto foi desenvolvido como parte das atividades da disciplina Web Hub, ministrada pelo professor Gustavo Campelo. O objetivo do trabalho é construir um slider interativo que apresenta um conjunto de imagens de um aquário, simulando um carrossel de fotos com transições suaves e controles de navegação.
