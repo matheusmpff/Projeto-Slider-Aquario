@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte das atividades da disciplina Web Hub, m
 
 🎯 Objetivo
 
-O desafio consiste em criar a estrutura e a lógica do slider a partir de um conjunto de imagens previamente fornecidas pelo professor. Todo o restante do código — incluindo HTML, CSS e JavaScript — foi implementado pelos alunos, aplicando os conceitos aprendidos em aula sobre:
+O desafio consiste em criar a estrutura e a lógica do slider a partir de um conjunto de imagens previamente fornecidas pelo professor. Todo o restante do código — incluindo HTML, CSS e JavaScript — foi implementado, aplicando os conceitos aprendidos em aula sobre:
 
 Estruturação de páginas com HTML5
 
