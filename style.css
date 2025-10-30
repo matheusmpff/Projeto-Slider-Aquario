@@ -1,1 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+  --h2-width: 800px;
+  --title-color: rgba(255,255,255,0.9);
+  --p-color: rgba(255,255,255,0.8);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    width: 75%;
+    height: 85%;
+    position: relative;
+}
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.logo a img{
+    width: 65%;
+}
+.access{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    width: 500px;
+    height: 100%;
+}
+.user{
+    height: 24px;
+}
+.cart{
+    height: 32px;
+    margin-top: -6px;
+}
+.menu{
+    height: 80px;
+}
+
+.access a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slides{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 120px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+h2{
+
+    font-size: 65px;
+    max-width: var(--h2-width);
+}
+
+.secondH2{
+    align-self: flex-end;
+    font-size: 30px;
+}
+
+p{
+    max-width: calc(var(--h2-width)/1.7);
+    color: var(--p-color);
+}
+
+
+.s1{
+    background-image:url("img/lula.jpg");
+}
+.s2{
+    background-image: url("img/urso-polar.jpg");
+    display: none;
+}
+.s3{
+    background-image: url("img/tubarao.jpg");
+    display: none;
+}
+.s4{
+    background-image: url("img/pinguin.jpg");
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 24px;
+    gap: 40px;
+}
+.buttons button{
+    width: 180px;
+    padding: 12px 36px;
+    border-radius: 100px;
+
+}
+
+.tickets{
+    border: none;
+    background-color: var(--p-color);
+}
+
+.tickets:hover{
+    background-color: rgba(230,230,230,0.8);
+    cursor:pointer;
+}
+
+.about-us{
+    background-color: #ffffff00;
+    border: 1px solid var(--p-color);
+    color: var(--p-color);
+}
+
+.about-us:hover{
+    cursor: pointer;
+    background-color: #ffffff1f;
+}
+nav{
+    position: absolute;
+    translate: 0 -100px ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+.bar-nav{
+    width: 24px;
+    height: 3px;
+    border-radius: 100px;
+    background-color: #ffffff70;
+    border: none;
+}
+
+.bar-nav:hover{
+    cursor: pointer;
+}
+.arrows{
+    display: flex;
+    gap: 10px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--p-color);
+    transition: all 0.5s;
+}
+
+.arrow:hover{
+    background-color: var(--title-color);
+    transform: translateY(-10px);
+}
+
+.b1{
+    background-color: var(--p-color);
+}
